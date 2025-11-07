@@ -1,14 +1,14 @@
 import React, { useState, useEffect, useMemo } from 'react';
-import { CandidateWithVotes } from './types';
-import { CANDIDATES, TEHSILS, DISTRICTS, TOTAL_ELECTORATE, TOTAL_SEATS, VotersIcon, SeatsIcon, UserIcon, VOTES_DATA } from './constants';
-import Header from './components/Header';
-import SummaryCard from './components/SummaryCard';
-import WinnersPodium from './components/WinnersPodium';
-import DistrictResults from './components/DistrictResults';
-import ElectorateTable from './components/ElectorateTable';
-import DivisionLeaderboard from './components/DivisionLeaderboard';
-import CandidateModal from './components/CandidateModal';
-import Footer from './components/Footer';
+import { CandidateWithVotes } from './types.ts';
+import { CANDIDATES, TEHSILS, DISTRICTS, TOTAL_ELECTORATE, TOTAL_SEATS, VotersIcon, SeatsIcon, UserIcon, VOTES_DATA } from './constants.tsx';
+import Header from './components/Header.tsx';
+import SummaryCard from './components/SummaryCard.tsx';
+import WinnersPodium from './components/WinnersPodium.tsx';
+import DistrictResults from './components/DistrictResults.tsx';
+import ElectorateTable from './components/ElectorateTable.tsx';
+import DivisionLeaderboard from './components/DivisionLeaderboard.tsx';
+import CandidateModal from './components/CandidateModal.tsx';
+import Footer from './components/Footer.tsx';
 
 const App: React.FC = () => {
   const [candidatesData, setCandidatesData] = useState<CandidateWithVotes[]>([]);

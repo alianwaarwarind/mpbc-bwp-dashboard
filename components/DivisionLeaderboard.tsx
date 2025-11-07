@@ -1,6 +1,6 @@
 import React from 'react';
-import { CandidateWithVotes, Tehsil } from '../types';
-import { DISTRICTS } from '../constants';
+import { CandidateWithVotes, Tehsil } from '../types.ts';
+import { DISTRICTS } from '../constants.tsx';
 
 interface DivisionLeaderboardProps {
   candidates: CandidateWithVotes[];

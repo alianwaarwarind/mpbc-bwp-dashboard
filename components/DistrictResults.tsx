@@ -1,7 +1,7 @@
 import React, { useMemo } from 'react';
 import { ResponsiveContainer, BarChart, CartesianGrid, XAxis, YAxis, Tooltip, Bar } from 'recharts';
-import { CandidateWithVotes, District } from '../types';
-import { TrophyIcon } from '../constants';
+import { CandidateWithVotes, District } from '../types.ts';
+import { TrophyIcon } from '../constants.tsx';
 
 interface DistrictResultsProps {
   district: District;

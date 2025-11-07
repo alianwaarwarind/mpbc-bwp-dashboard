@@ -1,5 +1,5 @@
 import React from 'react';
-import { Tehsil, Candidate, District } from './types';
+import { Tehsil, Candidate, District } from './types.ts';
 
 // Data Constants
 export const TEHSILS: Tehsil[] = [

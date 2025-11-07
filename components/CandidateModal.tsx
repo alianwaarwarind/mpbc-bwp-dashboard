@@ -1,7 +1,7 @@
 import React, { useMemo, useEffect } from 'react';
 import { ResponsiveContainer, PieChart, Pie, Cell, Tooltip, Legend } from 'recharts';
-import { CandidateWithVotes } from '../types';
-import { VOTES_DATA, DISTRICTS, TEHSILS, TrophyIcon } from '../constants';
+import { CandidateWithVotes } from '../types.ts';
+import { VOTES_DATA, DISTRICTS, TEHSILS, TrophyIcon } from '../constants.tsx';
 
 interface CandidateModalProps {
   candidate: CandidateWithVotes;

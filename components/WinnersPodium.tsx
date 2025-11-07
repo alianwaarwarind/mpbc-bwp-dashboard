@@ -1,6 +1,6 @@
 import React from 'react';
-import { CandidateWithVotes } from '../types';
-import { DISTRICTS, TrophyIcon } from '../constants';
+import { CandidateWithVotes } from '../types.ts';
+import { DISTRICTS, TrophyIcon } from '../constants.tsx';
 
 interface WinnersPodiumProps {
   winners: CandidateWithVotes[];

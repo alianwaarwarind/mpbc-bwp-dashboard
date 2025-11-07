@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { Tehsil } from '../types';
+import { Tehsil } from '../types.ts';
 
 interface ElectorateTableProps {
   tehsils: Tehsil[];
