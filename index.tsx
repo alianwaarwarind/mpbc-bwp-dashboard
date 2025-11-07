@@ -142,11 +142,6 @@ const Footer: React.FC = () => {
           Ali Anwaar
         </a>
       </p>
-      <div className="mt-4 text-xs text-slate-400 dark:text-slate-500">
-        <h4 className="font-semibold uppercase tracking-wider mb-2">Special Acknowledgements</h4>
-        <p>Adv. Ali Pervaiz (Fort Abbas) & Mr. Hamza Saleem Jatoi (Liaqatpur)</p>
-        <p>for their assistance in data collection.</p>
-      </div>
     </footer>
   );
 };
@@ -169,6 +164,16 @@ const Header: React.FC = () => {
       <p className="mt-4 max-w-3xl mx-auto text-base text-slate-500 dark:text-slate-400">
         An analytical view of the competition for the 6 total seats across the Bahawalpur Division. Results are visualized based on a hybrid allocation system, with reserved seats for each of the three districts.
       </p>
+      <div className="mt-6 max-w-3xl mx-auto text-sm text-slate-500 dark:text-slate-400 space-y-4">
+        <div>
+            <h4 className="font-semibold uppercase tracking-wider text-slate-600 dark:text-slate-300 mb-1">With Patronage Of</h4>
+            <p>Muhammad Farooq Warind, Advocate Supreme Court (Rahim Yar Khan)</p>
+        </div>
+        <div>
+            <h4 className="font-semibold uppercase tracking-wider text-slate-600 dark:text-slate-300 mb-1">Special Acknowledgements</h4>
+            <p>Ali Pervaiz, Advocate High Court (Fort Abbas) & Mr. Hamza Saleem Jatoi (Liaqatpur) for their assistance in data collection.</p>
+        </div>
+      </div>
     </header>
   );
 };

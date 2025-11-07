@@ -14,11 +14,6 @@ const Footer: React.FC = () => {
           Ali Anwaar
         </a>
       </p>
-      <div className="mt-4 text-xs text-slate-400 dark:text-slate-500">
-        <h4 className="font-semibold uppercase tracking-wider mb-2">Special Acknowledgements</h4>
-        <p>Adv. Ali Pervaiz (Fort Abbas) & Mr. Hamza Saleem Jatoi (Liaqatpur)</p>
-        <p>for their assistance in data collection.</p>
-      </div>
     </footer>
   );
 };
