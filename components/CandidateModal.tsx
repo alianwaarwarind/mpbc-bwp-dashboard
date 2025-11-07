@@ -57,7 +57,8 @@ const CandidateModal: React.FC<CandidateModalProps> = ({ candidate, rank, onClos
                 cx="50%"
                 cy="50%"
                 labelLine={false}
-                label={({ cx, cy, midAngle, innerRadius, outerRadius, percent }) => {
+                // FIX: Add types to recharts label properties to resolve arithmetic operation errors.
+                label={({ cx, cy, midAngle, innerRadius, outerRadius, percent }: { cx: number; cy: number; midAngle: number; innerRadius: number; outerRadius: number; percent: number; }) => {
                     const radius = innerRadius + (outerRadius - innerRadius) * 0.5;
                     const x = cx + radius * Math.cos(-midAngle * (Math.PI / 180));
                     const y = cy + radius * Math.sin(-midAngle * (Math.PI / 180));
