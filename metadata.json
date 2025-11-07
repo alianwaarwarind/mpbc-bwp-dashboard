@@ -1,5 +1,5 @@
 {
   "name": "Bahawalpur Bar Council Election Dashboard",
-  "description": "A single-page, responsive election dashboard to visualize the results of the Member Punjab Bar Council (Bahawalpur Seat) Election. It provides an analytical view of the competition for the 6 total seats across the Bahawalpur Division's three districts, based on a hybrid allocation system.",
+  "description": "A single-page, responsive election dashboard to visualize the results of the Member Punjab Bar Council (Bahawalpur Division) Election. It provides an analytical view of the competition for the 6 total seats across the Bahawalpur Division's three districts, based on a hybrid allocation system.",
   "requestFramePermissions": []
 }

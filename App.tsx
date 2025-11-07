@@ -8,6 +8,7 @@ import DistrictResults from './components/DistrictResults';
 import ElectorateTable from './components/ElectorateTable';
 import DivisionLeaderboard from './components/DivisionLeaderboard';
 import CandidateModal from './components/CandidateModal';
+import Footer from './components/Footer';
 
 const App: React.FC = () => {
   const [candidatesData, setCandidatesData] = useState<CandidateWithVotes[]>([]);
@@ -140,6 +141,7 @@ const App: React.FC = () => {
             <ElectorateTable tehsils={TEHSILS} />
           </section>
         </main>
+        <Footer />
       </div>
       {selectedCandidate && (
         <CandidateModal 
