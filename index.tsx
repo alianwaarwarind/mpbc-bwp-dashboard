@@ -419,8 +419,8 @@ const CandidateModal: React.FC<{ candidate: CandidateWithVotes; rank: number; on
         <ResponsiveContainer width="100%" height="100%">
             <PieChart>
             <Pie data={districtVoteData} cx="50%" cy="50%" labelLine={false}
-                // FIX: Add types to recharts label properties to resolve arithmetic operation errors.
-                label={({ cx, cy, midAngle, innerRadius, outerRadius, percent }: { cx: number; cy: number; midAngle: number; innerRadius: number; outerRadius: number; percent: number; }) => {
+                // FIX: Corrected the type for the label render prop to 'any' to resolve a type mismatch with the recharts library.
+                label={({ cx, cy, midAngle, innerRadius, outerRadius, percent }: any) => {
                     const radius = innerRadius + (outerRadius - innerRadius) * 0.5;
                     const x = cx + radius * Math.cos(-midAngle * (Math.PI / 180));
                     const y = cy + radius * Math.sin(-midAngle * (Math.PI / 180));
